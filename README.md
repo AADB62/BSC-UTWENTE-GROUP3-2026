@@ -81,11 +81,4 @@ Test files start with `test` so they never shadow a model function.
 - Local sensitivity covers 34 parameters (not `c`, a unit conversion) and not the hard-coded constants.
 - PRCC is computed only at D = 100 mg with log-uniform ranges ×/÷2 (f5 limited to 0.35–1);
   these ranges are a modelling assumption.
-- `f` and `f5` are constant; only single doses are simulated.
-- The LTI comparison (`compare_lti.m`) was dropped from the report and from `main.m`.
-- No quantitative validation: results are compared qualitatively with the literature.
-
-## Reference model
-
-Reed MC, Nijhout HF, Best JA (2012), Front Integr Neurosci. Parameter values follow
-this model where possible; deviations are recorded in the decision log of the report.
+- `f` and `fs` are constant; only single doses are simulated.
